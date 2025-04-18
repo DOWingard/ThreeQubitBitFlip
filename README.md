@@ -17,6 +17,16 @@ The code works as follows:
 * Simulates noise models for IBM Brisbane and a custom model for 10% bit-flip chance at each gate
 * Evaluates quantum circuit simulation with selected noise model
 
+## Outputs
+" (Final State) (error syndrome) " : count
+
+* Final state = measured |0> or |1>
+* error syndrome =
+          00 (  no error   )
+          01 (qubit 0 error)
+          10 (qubit 2 error)
+          11 (qubit 1 error)
+
 
 ## How error models are applied
 The error model simulating IBM Brisbane, along with the basis gates and coupling map, is passed into the Aer backend (which is why the error messages can be ignored as we want to override the Aer base backend)
