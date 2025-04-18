@@ -22,9 +22,9 @@ The code works as follows:
 
 * Final state = measured |0> or |1>
 * error syndrome =
-          00 (  no error   )
-          01 (qubit 0 error)
-          10 (qubit 2 error)
+          00 (no error),
+          01 (qubit 0 error), 
+          10 (qubit 2 error), 
           11 (qubit 1 error)
 
 
