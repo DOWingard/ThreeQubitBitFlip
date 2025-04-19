@@ -10,7 +10,7 @@ The code works as follows:
 
 * Creates 3 data cubits, 2 ancilla qubits, 2 classical bits
 * Places 1 data cubit into superposition state using H gate
-* Applies CNOT to other 2 data cubits to build a 3 qubit bell state 1/sqrt(2) (|000> + |111>)
+* Applies CNOT to other 2 data cubits to build a 3 qubit cat state 1/sqrt(2) (|000> + |111>)
 * Applies CNOT to each ancilla with data qubit pairs to store combined parity in entangled ancilla
 * Measures ancillas to classical bits for error syndrome and corrects corresponding qubit via X, CNOT, and CCNOT gates
 * Measures final output state counts (ideal is 1:1 <-> |000>:|111>)
